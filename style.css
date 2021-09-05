@@ -1,0 +1,110 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Default css */
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* header-css start */
+
+.header-section{
+    background-color: #E3F2FD;
+    padding: 10px 0 0 0;
+}
+.header-logo {
+    width: 60px;
+    margin-top: 2px;
+}
+.header-menu{}
+.header-menu ul{
+    list-style: none;
+}
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: inline-block;
+    color: #9AA4AB;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 43px;
+    transition: .3s;
+}
+.header-menu ul li:first-child a{
+    color: #0d0d0e;
+    cursor: pointer;
+}
+.header-menu ul li a:hover{
+    color: #0d0d0e;
+}
+.search-bar input {
+    font-size: 18px;
+    border: 2px solid #ddd;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 14px;
+    outline: none;
+}
+.custom-btn {
+    border: 3px solid #79ce9c;
+    color: #04bd52;
+    background: #E3F2FD;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.custom-btn:hover{
+    background-color: #2AA045;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* header-css end */
+
+/* header-bottom css start */
+
+.breadcrumb{
+    background-color: #E9ECEF;
+    padding: 12px;
+}
+
+/* banner css start */
+
+.banner img{
+    height: 500px;
+}
+
+/* blog css start */
+
+.font{
+    font-size: 23px;
+    font-weight: bold;
+    color: #0980FF;
+}
+.font::after{
+    display: none;
+}
+
+/* scrollspy css */
+
+.scrollspy-example {
+    position:relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+    font-size: 20px;
+}
+
+/* footer css */
+
+.footer-section{
+    background-color: #17A2B8;
+    color: #fff;
+}
